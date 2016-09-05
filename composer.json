@@ -1,0 +1,30 @@
+{
+    "name": "nunopress/cache-service-provider",
+    "description": "Cache Service Provider based on Illuminate Cache package for Silex Microframework or any Pimple Container project's.",
+    "license": "MIT",
+    "homepage": "http://nunopress.com",
+    "support": {
+        "issues": "https://github.com/nunopress/cache-service-provider/issues",
+        "source": "https://github.com/nunopress/cache-service-provider"
+    },
+    "authors": [
+        {
+            "name": "NunoPress LLC",
+            "email": "hello@nunopress.com"
+        }
+    ],
+    "require": {
+        "illuminate/cache": "5.3.*",
+        "pimple/pimple": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NunoPress\\Cache\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    }
+}
