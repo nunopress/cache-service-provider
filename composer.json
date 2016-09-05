@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "illuminate/cache": "5.3.*",
+        "illuminate/cache": "5.4.*",
         "pimple/pimple": "~3.0"
     },
     "autoload": {
